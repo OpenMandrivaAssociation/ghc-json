@@ -16,7 +16,6 @@ BuildRequires:	ghc-mtl
 BuildRequires:	ghc-text
 BuildRequires:	haddock
 BuildRequires:	haskell-macros
-BuildRequires:	pkgconfig(libcurl)
 
 %description
 A JSON library for Haskell.
