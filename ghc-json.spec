@@ -5,7 +5,7 @@
 Summary:	Haskell JSON library
 Name:		ghc-json
 Version:	0.7
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Other
 Url:		http://hackage.haskell.org/package/%{module}
@@ -16,6 +16,7 @@ BuildRequires:	ghc-mtl
 BuildRequires:	ghc-text
 BuildRequires:	haddock
 BuildRequires:	haskell-macros
+Requires(post,preun):	ghc
 
 %description
 A JSON library for Haskell.
